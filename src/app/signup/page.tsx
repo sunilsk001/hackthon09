@@ -3,7 +3,7 @@ import Hero from "./Hero"
 import React from "react"
 import Image from "next/image"
 import google from "../../../public/google.png"
-import apple from "../../../public/apple.png"
+import { FaApple } from "react-icons/fa";
 import { Input } from "@/components/ui/input";
 
 export default function SignUpPage() {
@@ -62,7 +62,7 @@ export default function SignUpPage() {
               Sign up with Google
             </button>
             <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center">
-              <Image src={apple} alt="Apple" width={64} height={64} className="w-[24px] h-[24px] left-[16px] mr-2" />
+            <FaApple className="w-[20px] h-[20px] left-[16px] mr-2"  />
               Sign up with Apple
             </button>
           </div>
