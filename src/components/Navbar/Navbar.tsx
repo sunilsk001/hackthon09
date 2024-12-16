@@ -3,7 +3,8 @@ import Link from "next/link"
 import { useState } from 'react'
 import Image from "next/image"
 import { Menu, X } from 'lucide-react'
-
+import { LuUserRound } from "react-icons/lu";
+import { PiTote } from "react-icons/pi";
 
 
 
@@ -67,11 +68,11 @@ export default function Navbar() {
             <Link href="/" className="text-white hover:text-[#FF9F0D] transition-colors">
               <Image src="/search.png" alt="search" width={24} height={24} />
             </Link>
-            <Link href="/" className="text-white hover:text-[#FF9F0D] transition-colors">
-              <Image src="/user.png" alt="user" width={24} height={24} />
+            <Link href="/" className="text-white hover:text-[#FF9F0D]  transition-colors">
+              <LuUserRound className="w-6 h-6"/>
             </Link>
             <Link href="/" className="text-white hover:text-[#FF9F0D] transition-colors">
-              <Image src="/tote.png" alt="cart" width={24} height={24} />
+            <PiTote className="w-6 h-6"/>
             </Link>
           </div>
         </nav>
