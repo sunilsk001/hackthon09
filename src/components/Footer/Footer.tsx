@@ -2,19 +2,23 @@ import AboutUsSection from "./AboutFooter";
 import HelpSection from "./HelpFooter";
 import RecentPostsSection from "./RecentPostFooter";
 import SocialIcons from "./SocialIconsFooter";
-import UsefulLinksSection from "./UseFellLinkFooter";
+import UsefulLinksSection from "./UseFullLinkFooter";
+import Button from "./Button";
 
 export default function Footer() {
   return (
     <footer className="bg-[#0D0D0D] text-white">
-      <div className="container mx-auto px-4 py-16">
-        <div className="border-t border-[#FF9F0D] my-8"></div>
-        <div className="flex justify-between items-center mt-[56px]">
+    <div className="container mx-auto px-4 py-16">
+      <Button />
+      <div className="border-t border-[#FF9F0D] my-8"></div>
+      <div className="flex justify-between items-center mt-[56px]">
+ 
           <AboutUsSection />
           <UsefulLinksSection />
           <HelpSection />
           <RecentPostsSection />
         </div>
+        
       </div>
       <div className="bg-[#4F4F4F] py-8 flex ">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
@@ -24,6 +28,7 @@ export default function Footer() {
           <SocialIcons />
         </div>
       </div>
+      
     </footer>
   )
 }
