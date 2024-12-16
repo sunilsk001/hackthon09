@@ -101,10 +101,10 @@ function HomePage() {
         </div>
       </div>
       <div className="mt-[50px] md:mt-0 ">
-        <Image src={foodpic1} alt="Hero Image" className="" width={336} height={536} />
+        <Image src={foodpic1} alt="Hero Image" className="w-[660px] h-[330] top-[1070px] left-[960px] radius-[6px] "  />
         <div className="flex flex-col md:flex-row mt-[16px] md:mt-[0]">
-          <Image src={foodpic2} alt="Hero Image" className="mr-[16px] pt-[40px]" />
-          <Image src={foodpic3} alt="Hero Image" className="pt-[40px]" />
+          <Image src={foodpic2} alt="Hero Image" className="mr-[16px] w-[322px] h-[194px] top-[1416px] lerf-[960px] raidus-[6px] pt-[40px]" />
+          <Image src={foodpic3} alt="Hero Image" className="pt-[40px] w-[322px] h-[194px] top-[1416px] lerf-[1298px] raidus-[6px]" />
         </div>
       </div>
     </section>
