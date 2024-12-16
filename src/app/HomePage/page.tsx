@@ -9,10 +9,10 @@ import foodpic3 from "../../../public/foodpic3.jpeg"
 function HomePage() {
   return (
     <>
-    <section className='bg-black px-3 md:px-[135px] flex flex-col justify-evenly md:flex-row  md:items-center py-[50px]'>
+    <section className='bg-black px-4 md:px-[135px] flex flex-col justify-evenly md:flex-row  md:items-center py-[50px]'>
                    {/* Heading */}
         <div className='text-white w-full md:w-[50%]'>
-  <h1 className='md:text-[32px] text-[24px] font-normal text-[#FF9F0D] font whitespace-nowrap'>
+  <h1 className='md:text-[30px] text-[24px] font-normal text-[#FF9F0D] font whitespace-nowrap'>
     Its Quick & Amusing!
   </h1>
 
