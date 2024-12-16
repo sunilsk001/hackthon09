@@ -1,4 +1,3 @@
-"use client"
 export default function HelpSection() {
     const links = ['FAQ', 'Term & Condition', 'Reporting', 'Documentation', 'Support Policy', 'Privacy']
     return (
