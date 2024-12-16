@@ -1,4 +1,4 @@
-import { Clock } from 'lucide-react'
+import { PiClockClockwise } from "react-icons/pi";
 
 export default function AboutUsSection() {
   return (
@@ -9,7 +9,7 @@ export default function AboutUsSection() {
       </p>
       <div className="flex items-start">
         <div className="bg-[#FF9F0D] p-2 rounded mr-4 w-[77.23px] h-[70.79px]">
-          <Clock className="text-white" />
+            <PiClockClockwise className="text-white w-16 h-14 top-[492.16px] left-[318.81px] "/>
         </div>
         <div>
           <h4 className="font-semibold">Opening Hours</h4>
