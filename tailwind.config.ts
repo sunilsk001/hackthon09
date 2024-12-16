@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+		fontFamily:{
+			title:["Great Vibes","serif"],
+		},
       colors: {
         background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -57,6 +60,8 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
 
       },
+	  
+	
     },
   },
   plugins: [require("tailwindcss-animate")],
