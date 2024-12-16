@@ -28,7 +28,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-[20px] lg:mx-0 md:mx-44 flex-auto -mx-0 sm:text-[24px] leading-[32px] font-bold text-white font-helvetica "
+            className="text-[20px] lg:mx-0 md:mx-44  -mx-0  sm:text-[24px] leading-[32px] font-bold text-white font-helvetica "
           >
             Food<span className="text-[#FF9F0D]">tuck</span>
           </Link>
